@@ -1,0 +1,198 @@
+/* spacing */
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.py-4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.px-16 {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.px-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.p-all-10 {
+    padding: 10px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.my-4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.mx-negative {
+    margin-left: -9px;
+    margin-right: 9px;
+}
+
+.mx-positive {
+    margin-left: 9px;
+    margin-right: -9px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+/* fonts */
+
+.font-sm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.font-sm-bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.font-md-bold {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.font-lg {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.font-xl {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* colors and bg colors */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-primary {
+    background-color: #FF9F24;
+}
+
+.color-primary {
+    color: #FF9F24;
+}
+
+.color-gray {
+    color: #969696; 
+}
+
+.color-white {
+    color: white;
+}
+
+/* utils */
+
+.h-200 {
+    height: 200px;
+    width: auto;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.section-radius {
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+}
+
+.borders {
+    border: 1px solid #969696;
+    border-radius: 16px;
+}
+
+.borders.active {
+    border-color: #FF9F24;
+    color: #FF9F24;
+}
+
+.footer-button {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.cart-button {
+    flex-grow: 1;
+}
+
+.bag-button {
+    border: 1px solid #FF9F24;
+}
+
