@@ -40,6 +40,7 @@ export const ProductDetailsPage = () => {
     if (!beerInfo) return <></>
 
     return (
+        // these classes are defined in the index.css, as stated in the challenge, I'm not using any libs for the PDP
         <div className="pt-40">
 
             <Header />

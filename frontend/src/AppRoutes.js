@@ -9,7 +9,6 @@ export const AppRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
-
                 <Route
                     path="/"
                     element={<Navigate to="/products" />}

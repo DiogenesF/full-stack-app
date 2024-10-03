@@ -12,7 +12,7 @@ app.use(function (req, res, next) {
 
 app.get('/api/products', (req, res) => {
 
-    //getting the first price for each product just to show in the frontend without hardcoding
+    //these 3 loops are getting the first price for each product to show in PDL page without hardcoding
     const codes = products.map((product) => {
         return product.skus[0].code
     })
