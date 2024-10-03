@@ -5,9 +5,9 @@ Once there, you'll see in their respective READMEs the instructions to run this 
 ### Obs:
 
 There are a couple of improvements that could have been done in this code, like:
-Unit tests
-Loading states
-Better error treatment
-Addition of types, etc
+- Unit tests
+- Loading states
+- Better error treatment
+- Addition of types, etc
 
 to keep it simpler I decided not to add them
